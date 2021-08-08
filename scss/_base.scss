@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  &:focus {
+    outline: none;
+  }
+}
+
+#__nuxt,
+#__layout {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: $black-light;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: $white;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 72px;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 56px;
+  line-height: 115%;
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 120%;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 130%;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 150%;
+}
