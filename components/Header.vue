@@ -58,7 +58,7 @@ export default {}
           width: 0;
           height: 2px;
           transform: translate(42%, -50%);
-          background: #fff;
+          background: $primary;
           transition: 0.5s ease;
         }
 

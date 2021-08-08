@@ -63,7 +63,7 @@ export default {
   ],
 
   styleResources: {
-    scss: ['@/scss/_mixins.scss']
+    scss: ['@/scss/_mixins.scss', '@/scss/_colors.scss']
    },
 
   modules: ['@nuxtjs/style-resources'],

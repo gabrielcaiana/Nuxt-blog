@@ -1,10 +1,12 @@
 <template>
   <div>
+    <div class="hero">
+      <Hero />
+    </div>
     <main>
-      <h2>Latest thoughts</h2>
       <ul>
         <li v-for="post in posts" :key="post.id">
-            <Card :post="post" />
+          <Card :post="post" />
         </li>
       </ul>
     </main>
@@ -20,3 +22,11 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+  .hero {
+    width: 100vw;
+    background: $primary;
+    padding: 3rem 0;
+  }
+</style>
