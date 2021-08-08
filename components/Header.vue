@@ -25,23 +25,29 @@ export default {}
 
   .navbar {
     @include flexbox-space-between();
-    padding: 2rem 0;
 
     &__logo {
       font-size: 1.2rem;
+      padding-bottom: 0.5rem;
     }
 
     ul {
       @include flexbox();
+      justify-content: flex-end;
 
       li {
-        margin-left: 1rem;
-        padding: 1rem;
+        width: auto;
+        padding-left: 1.5rem;
         font-size: 1rem;
         transition: 0.5s ease;
         position: relative;
         display: inline-block;
         z-index: 1;
+        padding-bottom: 0.5rem;
+
+        @include screen ('small') {
+          padding-left: 1rem;
+        }
 
         &::after {
           content: '';
@@ -51,7 +57,7 @@ export default {}
           left: 0;
           width: 0;
           height: 2px;
-          transform: translate(20%, -50%);
+          transform: translate(42%, -50%);
           background: #fff;
           transition: 0.5s ease;
         }
