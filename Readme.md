@@ -10,4 +10,4 @@ Blog built with nuxt.js and using Ghost CMS.
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Nuxt.js](https://nuxtjs.org/)
-- [Nuxt.js](https://ghost.org/docs/)
+- [Ghost](https://ghost.org/docs/)
