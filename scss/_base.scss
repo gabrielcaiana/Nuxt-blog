@@ -14,6 +14,10 @@
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #__nuxt,
 #__layout {
   min-height: 100vh;
@@ -35,7 +39,7 @@ a {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 92px;
   line-height: 100%;
   padding-bottom: 2rem;
   font-weight: 600;

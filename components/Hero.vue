@@ -29,7 +29,7 @@ export default {}
 
   p {
     color: $white;
-    max-width: 70%;
+    max-width: 90%;
     margin-bottom: 1rem;
 
       @include screen('small') {
