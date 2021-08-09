@@ -4,7 +4,7 @@
     <div class="content">
       <span v-text="post.authors[0].name" />
       <NuxtLink :to="{ path: post.slug }" v-text="post.title" />
-      <p v-text="post.excerpt" />
+      <p v-text="describe" />
     </div>
   </div>
 </template>
@@ -17,6 +17,14 @@ export default {
       required: true,
     },
   },
+
+  computed: {
+    describe() {
+      if(this.post.excerpt.length > 100) {
+        return this.post.excerpt = this.post.excerpt.substring(0,100);
+      }
+    }
+  }
 }
 </script>
 
