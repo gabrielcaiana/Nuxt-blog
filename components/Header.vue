@@ -27,7 +27,7 @@ export default {}
     @include flexbox-space-between();
 
     &__logo {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       padding-bottom: 0.5rem;
     }
 
@@ -38,7 +38,7 @@ export default {}
       li {
         width: auto;
         padding-left: 1.5rem;
-        font-size: 1rem;
+        font-size: 1.4rem;
         transition: 0.5s ease;
         position: relative;
         display: inline-block;
