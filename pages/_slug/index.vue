@@ -27,10 +27,6 @@ export default {
     max-width: 700px;
     margin: 0 auto;
 
-    &__cover {
-      width: 100%;
-    }
-
     &__title {
       padding: 3rem 0;
     }
