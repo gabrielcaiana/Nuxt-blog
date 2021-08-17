@@ -66,7 +66,7 @@ export default {
     scss: ['@/scss/_mixins.scss', '@/scss/_colors.scss']
    },
 
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/dotenv'],
 
   build: {
     extractCSS: true,

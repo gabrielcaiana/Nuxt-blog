@@ -4,7 +4,7 @@
     <div class="content">
       <span v-text="post.authors[0].name" />
       <NuxtLink :to="{ path: post.slug }" v-text="post.title" />
-      <p v-text="describe" />
+      <!-- <p v-text="describe" /> -->
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  min-height: 440px;
+  min-height: 300px;
   box-shadow: 0px 10px 20px rgba(43, 37, 63, 0.1);
 
   img {
@@ -38,8 +38,7 @@ export default {
   }
 
   .content {
-    padding: 1rem;
-    min-height: 220px;
+    padding: 2rem;
     position: relative;
 
     span {
